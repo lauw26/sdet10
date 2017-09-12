@@ -17,27 +17,27 @@ describe Fizzbuzz do
 	end
 
 	it "Should contain a dividable by 3 method" do
-		expect(@fizzbuzz).to respond_to(:multiple_of_three)
+		expect(@fizzbuzz).to respond_to(:multiple_of_three?)
 	end
 
 	it "Return true if number is a multiple of 3" do
-		expect(@fizzbuzz.multiple_of_three(66)).to be true 
+		expect(@fizzbuzz.multiple_of_three?(66)).to be true 
 	end
 
 	it "Return false if number is not a multiple of 3" do
-		expect(@fizzbuzz.multiple_of_five(17)).to be false 
+		expect(@fizzbuzz.multiple_of_three?(17)).to be false 
 	end
 
 	it "Should contain a dividable by 5 method" do
-		expect(@fizzbuzz).to respond_to(:multiple_of_five)
+		expect(@fizzbuzz).to respond_to(:multiple_of_five?)
 	end
 
 	it "Return true if number is a multiple of 5" do
-		expect(@fizzbuzz.multiple_of_five(10)).to be true 
+		expect(@fizzbuzz.multiple_of_five?(10)).to be true 
 	end
 
 	it "Return false if number is not a multiple of 5" do
-		expect(@fizzbuzz.multiple_of_five(14)).to be false 
+		expect(@fizzbuzz.multiple_of_five?(14)).to be false 
 	end
 
 	it "Should contain comparison method" do
