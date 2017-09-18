@@ -1,4 +1,5 @@
 require 'json'
+require 'httparty'
 
 class Bonk 
 	attr_accessor :file
@@ -8,7 +9,7 @@ class Bonk
 	end
 
 	def get_file(filename)
-		@file = JSON.parse(File.read(filename))
+		@file = JSON.parse(HTTParty.get(filename).body)
 	end
 
 
