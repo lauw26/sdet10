@@ -3,10 +3,11 @@
 describe "bbc login fail" do 
 
 	before(:all) do
+		# Initializing a bbc_site object and create a chrome browser
 		@bbc_site = BbcSite.new(:chrome)
 	end
 
-	it "BBc homepage link works and sign in button takes user to sign in page and fails login" do
+	it "BBc homepage sign in link takes user to sign in page, fails login and checks for error message" do
 		# Opens chrome and goes to bc homepage
 		@bbc_site.homepage.access_homepage
 		# Checks if the sign in button exists
