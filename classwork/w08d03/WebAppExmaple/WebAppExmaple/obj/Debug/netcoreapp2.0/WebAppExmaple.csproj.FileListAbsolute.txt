@@ -1,0 +1,11 @@
+/Users/tech-a03/sdet10/classwork/w08d03/WebAppExmaple/WebAppExmaple/bin/Debug/netcoreapp2.0/WebAppExmaple.deps.json
+/Users/tech-a03/sdet10/classwork/w08d03/WebAppExmaple/WebAppExmaple/bin/Debug/netcoreapp2.0/WebAppExmaple.runtimeconfig.json
+/Users/tech-a03/sdet10/classwork/w08d03/WebAppExmaple/WebAppExmaple/bin/Debug/netcoreapp2.0/WebAppExmaple.runtimeconfig.dev.json
+/Users/tech-a03/sdet10/classwork/w08d03/WebAppExmaple/WebAppExmaple/bin/Debug/netcoreapp2.0/WebAppExmaple.dll
+/Users/tech-a03/sdet10/classwork/w08d03/WebAppExmaple/WebAppExmaple/bin/Debug/netcoreapp2.0/WebAppExmaple.pdb
+/Users/tech-a03/sdet10/classwork/w08d03/WebAppExmaple/WebAppExmaple/obj/Debug/netcoreapp2.0/WebAppExmaple.csproj.CoreCompileInputs.cache
+/Users/tech-a03/sdet10/classwork/w08d03/WebAppExmaple/WebAppExmaple/obj/Debug/netcoreapp2.0/WebAppExmaple.AssemblyInfoInputs.cache
+/Users/tech-a03/sdet10/classwork/w08d03/WebAppExmaple/WebAppExmaple/obj/Debug/netcoreapp2.0/WebAppExmaple.AssemblyInfo.cs
+/Users/tech-a03/sdet10/classwork/w08d03/WebAppExmaple/WebAppExmaple/obj/Debug/netcoreapp2.0/WebAppExmaple.dll
+/Users/tech-a03/sdet10/classwork/w08d03/WebAppExmaple/WebAppExmaple/obj/Debug/netcoreapp2.0/WebAppExmaple.pdb
+/Users/tech-a03/sdet10/classwork/w08d03/WebAppExmaple/WebAppExmaple/obj/Debug/netcoreapp2.0/WebAppExmaple.csprojResolveAssemblyReference.cache

@@ -1,0 +1,16 @@
+﻿
+@{
+     ViewData["Title"] = "Withdraw/Deposit page";
+}
+
+
+<h1>Withdraw or Deposit Dough</h1>
+
+<form asp-controller="Home" asp-action="Result" method="post">
+	Amount:
+    <input type="number" data-val="true"
+              id="amount" name="amount" value="" /> <br>
+	<input type="radio" name="action" value="Withdraw"> Withdraw<br>
+    <input type="radio" name="action" value="Deposit"> Deposit<br>
+    <button type="submit">Submit</button>
+</form>
